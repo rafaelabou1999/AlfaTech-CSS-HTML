@@ -1,0 +1,280 @@
+/*------------HEADER---------------*/
+/*------HEADER-MENU------*/
+.container-menu {
+  display: flex;
+  width: 100%;
+  height: 85px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.logo-img {
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  line-height: 2px;
+  position: relative;
+}
+
+.logo-img h2 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.logo-img p {
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+  color: #2f86d6;
+  font-weight: bold;
+}
+
+.container-menu img {
+  width: 50px;
+  position: absolute;
+  left: 250px;
+  top: 26px;
+}
+
+/*-------HEADER-CAPA------*/
+.capa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2f86d6;
+}
+
+.texto-capa {
+  box-sizing: border-box;
+  padding-top: 90px;
+  padding-left: 110px;
+  padding-right: 40px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.texto-capa p:first-of-type {
+  line-height: 15px;
+  font-weight: normal;
+}
+
+.texto-capa h3 {
+  font-size: 29px;
+  width: 360px;
+}
+
+.texto-capa p:nth-of-type(2) {
+  width: 350px;
+}
+
+.imagem-capa {
+  margin-right: 100px;
+}
+
+/*----SUBCAPA----*/
+.subcapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #233032;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 35px 0;
+}
+
+.subcapa .texto-subcapa {
+  margin-left: 240px;
+  line-height: 6px;
+}
+
+.button-subcapa {
+  align-self: center;
+  margin-right: 275px;
+}
+
+.button {
+  padding: 16px 26px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #2f86d6;
+  color: #fff;
+  border-left: 13px solid #2f86d6 !important;
+  border: 1px solid #2f86d6;
+  position: relative;
+  background-image: url("imagens/icone-foguete.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+/*-------------BODY---------------*/
+.cards h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards h2 span {
+  color: #2f86d6;
+}
+
+.cards h2:first-of-type {
+  margin-top: 65px;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin-left: 330px;
+  margin-top: 80px;
+}
+
+.container-cards img {
+  margin-left: 100px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.item h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+/*-------------TABELA----------------*/
+table {
+  font-family: "Lato", sans-serif;
+  margin-top: 130px;
+  margin-left: 500px;
+  font-weight: bold;
+  box-shadow: 7px 5px 10px rgba(0, 213, 255, 0.4);
+}
+
+table tbody tr td {
+  padding: 15px 30px;
+  border: 2px solid rgb(0, 66, 189);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 213, 255, 0.4);
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: rgba(2, 141, 156, 0.427);
+}
+
+table thead {
+  font-size: 25px;
+  text-shadow: 2px 2px 3px rgba(0, 213, 255, 0.4);
+}
+
+.container-anuncio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2f86d6;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 35px 0;
+  margin-top: 80px;
+}
+
+.container-anuncio .texto-anuncio {
+  margin-left: 240px;
+  line-height: 6px;
+}
+
+.button-anuncio {
+  align-self: center;
+  margin-right: 275px;
+}
+
+.button2 {
+  padding: 16px 26px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #233032;
+  color: #fff;
+  border-left: 13px solid #233032 !important;
+  border: 1px solid #233032;
+  position: relative;
+  background-image: url("imagens/icone-foguete.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+.texto-logo2 {
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  line-height: 2px;
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.texto-logo2 h2 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.texto-logo2 p {
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+  color: #2f86d6;
+  font-weight: bold;
+}
+
+.img-footer {
+  display: inline;
+}
+
+.footer-informacoes {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.final {
+  text-align: center;
+  background-color: rgba(183, 182, 182, 0.232);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.final p {
+  padding-top: 15px;
+}
+.final span {
+  color: #2f86d6;
+}
