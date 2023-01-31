@@ -1,2 +1,2 @@
-# Projeto---AlfaTech
-Projeto front-end usando CSS e HTML 
+# HTML-CSS
+Projeto AlfaTech feito para o curso DEVMEDIA
